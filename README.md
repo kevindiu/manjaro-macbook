@@ -42,6 +42,9 @@ sudo systemctl start powertop
 
 # install adguardhome
 pamac install adguardhome
-sudo nano /etc/resolv.conf
+sudo systemctl enable AdGuardHome
+sudo systemctl start AdGuardHome
+sudo cp ./resolv.conf /etc/resolv.conf
 sudo chattr +i /etc/resolv.conf
 
+# adblock url: https://github.com/EnergizedProtection/block
