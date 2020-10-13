@@ -3,7 +3,7 @@ Description=Powertop tunings
 
 [Service]
 Type=oneshot
-ExecStartPre=/bin/sleep 50
+ExecStartPre=/bin/sleep 5
 ExecStart=/usr/bin/powertop --auto-tune
 
 [Install]

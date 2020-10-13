@@ -1,5 +1,6 @@
 This repo contains the setup instruction of manajaro for Macbook pro 13inch (Mid2014).
 
+```bash
 # install Wifi driver
 sudo pacman -Sy broadcom-wl
 
@@ -48,3 +49,4 @@ sudo cp ./resolv.conf /etc/resolv.conf
 sudo chattr +i /etc/resolv.conf
 
 # adblock url: https://github.com/EnergizedProtection/block
+```
