@@ -57,6 +57,7 @@ sudo systemctl enable AdGuardHome
 sudo systemctl start AdGuardHome
 sudo cp ./resolv.conf /etc/resolv.conf
 sudo chattr +i /etc/resolv.conf
+sudo cp ./AdGuardHome.conf /var/lib/adguardhome
 
 # adblock url: https://github.com/EnergizedProtection/block
 
