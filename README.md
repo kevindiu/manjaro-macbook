@@ -67,5 +67,7 @@ sudo systemctl start docker
 sudo usermod -aG docker $USER
 
 # others
-
+pamac install google-chrome
+pamac install slack-desktop
+pamac install zoom
 ```
